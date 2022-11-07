@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-6">
+        <input [(ngModel)]="searchText" type="text" class="formcontrol" placeholder="Type to filter">
+    </div>
+</div>
+<hr>
+<table class="table table-striped" *ngIf='evaluaciones && evaluaciones.length'>
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">identificación Paciente</th>
+            <th scope="col">Nombre  </th>
+            <th scope="col">Tipo cita</th>
+            <th scope="col">Diagnostico</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let evaluacion of Evaluacion; index as i ">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ evaluacion.idEvaluacion }} </td>
+            <td>{{ evaluacion.identificacionPaciente }} </td>
+            <td>{{ evaluacion.identificacionPsicologo }} </td>
+            <td>{{evaluacion.tipoCita }}</td>
+            <td>{{ evaluacion.diagnostico }}</td>
+         
+        </tr> 
+    </tbody>
+</table>

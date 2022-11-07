@@ -1,0 +1,39 @@
+<div class="contenedor">
+
+<div class="contenedor_table_input">
+
+    <h2 class="title">Buscar Psicologo</h2>
+
+    <input [(ngModel)]="searchText" type="text" class="input" placeholder="Identificacion Psicologo">
+
+    <hr>
+    <table class="table table-striped" *ngIf='empleados && empleados.length'>
+        <thead>
+            <tr>
+
+                <th scope="col">#</th>
+                <th scope="col">identificación</th>
+                <th scope="col">Nombre </th>
+                <th scope="col">Apellido </th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Nombre Eps</th>
+                <th scope="col">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let empleado of empleados|filtroPsicologo:searchText; index as i ">
+
+                <th scope="row">{{ i + 1 }}</th>
+                <td>{{ empleado.identificacion }} </td>
+                <td>{{ empleado.nombre }}</td>
+                <td>{{ empleado.apellido }}</td>
+                <td>{{ empleado.sexo }}</td>
+                <td>{{ empleado.sexo }}</td>
+                <td> <a href="#" class="btn">Ver Detalles</a> </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+

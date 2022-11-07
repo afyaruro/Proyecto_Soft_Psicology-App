@@ -1,0 +1,117 @@
+
+
+<div class="contenedor">
+
+    <div class="contenedor_login">
+        <h1 class="titulo">Registro de Psicologo</h1>
+
+        <form class="contenedor_input">
+
+            <div class="inputs"> 
+                
+                <select type="text" name="tipoDocumento" [(ngModel)]="empleado.tipoDocumento" class="input">
+                    <option value="Selecciona el Tipo de Documento" selected disabled>Selecciona el Tipo de Documento</option>
+                    <option value="Cedula de ciudadania">Cedula de ciudadania</option>
+                    <option value="Registro civil">Registro civil</option>
+                    <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                    <option value="Documento extrangero">Documento extrangero</option>
+                </select>
+
+                <input type="text" name="apellido" placeholder="Apellido" [(ngModel)]="empleado.apellido" class="input">
+             
+            <select type="text" name="sexo" [(ngModel)]="empleado.sexo" class="input">
+                <option value="Selecciona un sexo" selected disabled>Selecciona un sexo</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+
+
+                <input type="email" name="correo" placeholder="correo" [(ngModel)]="empleado.correo" class="input" />
+
+                <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="fechaNacimiento" [(ngModel)]="empleado.fechaNacimiento" class="input" />
+              
+                <select type="text" name="areaEspecializada" [(ngModel)]="empleado.areaEspecializada" class="input">
+                    <option value="Selecciona un area Especializada" selected disabled>Selecciona un area Especializada</option>
+                    <option>Psicología cognitiva</option>
+                    <option>Psicología clínica</option>
+                    <option>Neuropsicología</option>
+                    <option>Psicología biológica</option>
+                    <option>Psicología comparativa o etología</option>
+                    <option>Psicología educativa</option>
+                    <option>Psicología evolutiva</option>
+                    <option>Psicología de la salud</option>
+                    <option>Psicología de pareja</option>
+                    <option>Psicología de familia</option>
+                    <option>Psicología empresarial y organizacional</option>
+                    <option>Psicología escolar</option>
+                    <option>Psicología gerontológica</option>
+                    <option>Sexología</option>
+                    <option>Psicología comunitaria</option>
+                </select>
+            </div>
+
+            <div class="inputs"> 
+                <input type="text" name="identificacion" placeholder="Numero de Identifiacion" [(ngModel)]="empleado.identificacion"
+                class="input" />
+                <input class="input" type="text" placeholder="Nombre de usuario">
+                <select type="text" name="eps" class="input">
+                    <option value="eps" selected disabled>Seleccione su Eps</option>
+                    <option value="Salud Colmena E.P.S. S.A.">Salud Colmena E.P.S. S.A.</option>  
+                    <option value="Salud Total S.A. E.P.S.">Salud Total S.A. E.P.S.</option> 
+                    <option value="Cafesalud E.P.S. S.A.">Cafesalud E.P.S. S.A.</option>   
+                    <option value="E.P.S.  Sanitas S.A.">E.P.S.  Sanitas S.A.</option>   
+                    <option value="E.P.S. Unimec - Liquidación">E.P.S. Unimec - Liquidación</option>   
+                    <option value="Compensar  E.P.S.">Compensar  E.P.S.</option>   
+                    <option value="EPS Prog. Comfenalco Antioquia">EPS Prog. Comfenalco Antioquia</option>   
+                    <option value="SuSalud EPS">SuSalud EPS</option>   
+                    <option value="Colseguros E.P.S.">Colseguros E.P.S.</option>   
+                    <option value="Comfenalco Valle E.P.S.">Comfenalco Valle E.P.S.</option>   
+                    <option>E.P.S.  Saludcoop</option>   
+                    <option>Humana Vivir  S.A.  E.P.S.</option>   
+                    <option>EPS Servicios Medicos Colpatria</option>   
+                    <option>Coomeva E.P.S.</option>   
+                    <option>E.P.S. Famisanar LTDA.  CAFAM-COLSUBSIDIO</option>   
+                    <option>E.P.S Servicio Occidental de Salud S.A.-EPS-S.O.S.</option>   
+                    <option>Solsalud S.A. EPS.</option>   
+                    <option>SALUDVIDA S.A. EPS</option>     
+                    <option>SALUDCOLOMBIA EPS S.A.</option>   
+                    <option>RED SALUD ATENCION HUMANA EPS S.A.</option>   
+                    <option>CajaCopi EPS</option> 
+                    <option value="">No Tiene</option>  
+                  </select>
+
+                  <input type="text" name="direccion" placeholder="Direccion" [(ngModel)]="empleado.direccion"
+                  class="input" />
+                <label for="fechaFinalizacion">Fecha de Finalizacion de Estudios</label>
+                <input type="date" name="fechaFinalizacion" [(ngModel)]="empleado.fechaFinalizacion" class="input" />
+                
+
+            </div>
+
+            <div class="inputs">
+                
+                <input type="text" name="nombre" placeholder="Nombre" [(ngModel)]="empleado.nombre" class="input" />
+                <input class="input" type="password" placeholder="Contraseña">
+
+                <input type="text" name="telefono" placeholder="Telefono" [(ngModel)]="empleado.telefono"
+                class="input" />
+
+                <input type="text" name="Universidad" placeholder="Universidad de egreso" [(ngModel)]="empleado.Universidad"
+            class="input" />
+
+            <input type="text" name="Meses" placeholder="Experiencia" [(ngModel)]="empleado.mesesExperiencia"
+            class="input inputDate" />
+                
+            </div>
+
+        </form>
+
+        <a class="boton" (click)="add()">Registrar Psicologo</a>
+
+    </div>
+
+
+
+</div>
+

@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.contenedor{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0.01%;
+    background-image: url(../../../assets/undraw_updated_resume_re_7r9j.svg);
+    background-repeat: no-repeat;
+}
+
+.contenedor_login{
+    width: 80%;
+    min-height: 400px;
+    background-color: rgba(8, 62, 99, 0.151);
+    margin: 50px auto;
+    border-radius: 25px;
+    padding: 00.01%;
+}
+
+
+.boton{
+    max-width: 250px;
+    min-height: 40px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #505365;
+    color: white;
+    border: 0px;
+}
+
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.inputs{
+    width: 100%;
+    margin: 0 auto;
+}
+
+label{
+    color: #505365;
+}
+
+
+.input{
+    width: 98%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    border: 0px solid;
+    margin: 10px auto;
+    color: #505365;
+}
+
+.inputDate{
+    margin-top: 44px;
+}
+
+.text_link{
+    text-align: center;
+    color: #505365;
+}
+
+.titulo{
+    color: #505365;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-top: 20px;
+}
+
+.contenedor_input{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}

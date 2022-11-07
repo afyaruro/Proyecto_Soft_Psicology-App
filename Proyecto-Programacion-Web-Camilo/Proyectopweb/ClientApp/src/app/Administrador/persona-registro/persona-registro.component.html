@@ -1,0 +1,63 @@
+<div class="contenedor">
+
+    <div class="contenedor_login">
+        <h1 class="titulo">Registro de Paciente</h1>
+
+        <form class="contenedor_input">
+
+            <div class="inputs">   
+                <select class="input" type="text" name="tipoDocumento" [(ngModel)]="persona.tipoDocumento" >
+                    <option value="tipoDocumento" disabled selected>Tipo de Documento</option>
+                    <option value="Cedula">Cedula de ciudadania</option>
+                    <option value="Registro">Registro civil</option>
+                    <option value="Tarjeta">Tarjeta de identidad</option>
+                    <option value="DocumentoExtranjero">Documento extranjero</option>
+                </select>
+                <input class="input" type="text" placeholder="Nombre" [(ngModel)]="persona.nombre" name="nombre">
+                <input class="input" type="text" placeholder="Nombre de usuario">
+                <select class="input" type="text" name="sexo" [(ngModel)]="persona.sexo">
+                    <option value="Sexo" disabled selected>Seleccione su sexo</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+                <input class="input" type="text" placeholder="Telefono" [(ngModel)]="persona.telefono" name="telefono">
+                <label for="fechaNacimiento" class="inputDate">Fecha de Nacimiento</label>
+                <input type="date" name="fechaNacimiento"  class="input" [(ngModel)]="persona.fechaNacimiento">
+                
+
+            </div>
+
+            <div class="inputs"> 
+                <input class="input" type="text" name="identificacion" placeholder="Numero de identidad" [(ngModel)]="persona.identificacion">
+                <input class="input" type="text" placeholder="Apellido" [(ngModel)]="persona.apellido" name="apellido">
+                <input class="input" type="password" placeholder="Contraseña">
+                
+                <input class="input" type="text" placeholder="Dirreccion" [(ngModel)]="persona.direccion" name="direccion">
+                <select type="text" name="eps" class="input" [(ngModel)]="persona.eps">
+                      
+                    <option value="Salud Total S.A. E.P.S.">Salud Total S.A. E.P.S.</option>  
+                    <option>Colseguros E.P.S.</option>   
+                    <option>E.P.S.  Saludcoop</option>    
+                    <option>Coomeva E.P.S.</option>   
+                    <option>SALUDVIDA S.A. EPS</option>     
+                    <option>CajaCopi EPS</option>   
+
+                  </select>
+
+                  <input class="input" type="email" placeholder="Correo" [(ngModel)]="persona.correo" name="correo">
+
+            </div>
+
+        </form>
+
+        
+        <p class="text_link">¿Ya Tienes Cuenta? <a class="link" href="">click aqui</a></p>   
+
+        <a class="boton" (click)="add()">Registrarme Ahora</a>
+
+
+    </div>
+
+
+
+</div>

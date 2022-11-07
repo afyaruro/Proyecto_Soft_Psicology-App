@@ -1,0 +1,59 @@
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.csproj.AssemblyReference.cache
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\bin\Debug\net5.0\Datos.deps.json
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\bin\Debug\net5.0\Datos.dll
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\bin\Debug\net5.0\ref\Datos.dll
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\bin\Debug\net5.0\Datos.pdb
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\bin\Debug\net5.0\Entidad.dll
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\bin\Debug\net5.0\Entidad.pdb
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.dll
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\ref\Datos.dll
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.pdb
+C:\Users\windows 10\Desktop\Upc\ProyectoPWEB\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Datos.deps.json
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Datos.dll
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\ref\Datos.dll
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Datos.pdb
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Entidad.dll
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Entidad.pdb
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.csproj.AssemblyReference.cache
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.dll
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\ref\Datos.dll
+C:\Users\andres\OneDrive\Escritorio\Proyecto-Backend y Fronend\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.pdb
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Datos.deps.json
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Datos.dll
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\ref\Datos.dll
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Datos.pdb
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Entidad.dll
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\bin\Debug\net5.0\Entidad.pdb
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.csproj.AssemblyReference.cache
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.dll
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\ref\Datos.dll
+C:\Users\windows 10\Desktop\ProyectoPweb\Proyecto-Programacion-Web\Datos\obj\Debug\net5.0\Datos.pdb
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Datos.deps.json
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Datos.dll
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Datos.pdb
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Entidad.dll
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Entidad.pdb
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.dll
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\ref\Datos.dll
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.pdb
+C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\refint\Datos.dll
