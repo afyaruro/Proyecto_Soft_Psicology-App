@@ -11,11 +11,18 @@ import { Persona } from '../models/persona';
 })
 export class PersonaRegistroComponent implements OnInit {
 persona: Persona;
+sexo="Seleccione su sexo";
+tipoDocumento = "Tipo de Documento";
+eps = "Seleccione su Eps"
 
   constructor(private personaService: PersonaService,private modalService: NgbModal) { }
 
   ngOnInit() {
     this.persona= new Persona();
+    this.persona.sexo=this.sexo;
+    this.persona.eps=this.eps;
+    this.persona.tipoDocumento=this.tipoDocumento;
+
   }
 
   add(){

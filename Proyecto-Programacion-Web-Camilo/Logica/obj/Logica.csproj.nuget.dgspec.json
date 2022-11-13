@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -79,26 +81,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -138,37 +142,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\Logica.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Logica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj"
               },
-              "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -198,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

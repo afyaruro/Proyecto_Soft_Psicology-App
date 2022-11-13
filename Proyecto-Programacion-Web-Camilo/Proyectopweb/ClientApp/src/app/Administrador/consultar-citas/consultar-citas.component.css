@@ -1,0 +1,39 @@
+.contenedor{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0.01%;
+    background: url(../../../assets/undraw_searching_re_3ra9.svg);
+    background-repeat:no-repeat;
+    background-size: 30%;
+    background-position: 10% center;
+    padding: 40px;
+
+}
+
+.contenedor_table_input{
+    width: 60%;
+    min-height: 100vh;
+    float: right;
+}
+
+.title{
+    color:#505365;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.input{
+    width: 98%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    border: 0px solid;
+    margin: 10px auto;
+    color: #505365;
+    border: #3393b1 solid 1px;
+}

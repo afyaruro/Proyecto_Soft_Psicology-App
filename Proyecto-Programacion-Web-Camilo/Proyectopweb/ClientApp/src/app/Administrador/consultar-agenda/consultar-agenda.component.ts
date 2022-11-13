@@ -12,13 +12,15 @@ import { Empleado } from '../models/empleado';
 export class ConsultarAgendaComponent implements OnInit {
   agendas: Agenda[];
   agenda: Agenda;
-  empleado: Empleado;
-  empleados: Empleado[];
-  constructor(private agendaService: AgendaService, private empleadoService: EmpleadoService) { }
+  usuarios: string[];
+  user: string="";
+  constructor(private agendaService: AgendaService, private psicologoService: EmpleadoService) { }
 
   ngOnInit() {
  
-      this.agendaService.get().subscribe(result => {
+    this.usuarios=this.psicologoService.getLocal();
+    this.user=this.usuarios[0];
+      this.agendaService.GetxPsicologo(this.user).subscribe(result => {
         this.agendas = result;
       });
 

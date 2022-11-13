@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6iyfOWwv4fv+k3qByfqi3Z45xvioysplAIJYg5Svt4xYFkhVGyP7Y8771bjLSrLzDyjtMhucijfser/VuJx/eQ==",
+  "dgSpecHash": "y37sbOJ9tjjg8itG2ZGf3XMZs4E73tUoQFOe7fpkmGaA/ti8waASERn7eV/OnM5rxz/fXGMbmorSZ0BkUoB1eA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.0.0\\microsoft.aspnetcore.authentication.jwtbearer.3.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

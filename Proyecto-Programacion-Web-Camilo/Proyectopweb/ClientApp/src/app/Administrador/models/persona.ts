@@ -9,5 +9,7 @@ export class Persona {
     direccion: string;
     correo: string;
     eps: string;
+    username: string;
+    pass: string;
    
 }

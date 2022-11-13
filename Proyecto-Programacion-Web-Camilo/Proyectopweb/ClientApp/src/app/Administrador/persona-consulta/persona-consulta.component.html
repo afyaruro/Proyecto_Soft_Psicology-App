@@ -27,7 +27,7 @@
           <td>{{ persona.apellido }}</td>
           <td>{{persona.sexo }}</td>
           <td>{{ persona.eps }}</td>
-          <td><a href="#" class="btn">Ver Detalles</a></td>
+          <td><a class="btn" (click)="detalles(persona)">Ver Detalles</a></td>
         </tr>
       </tbody>
     </table>

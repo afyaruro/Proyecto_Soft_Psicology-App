@@ -20,7 +20,7 @@ namespace Logica
             try
             {
 
-                if (_context.psicologos.Find(psicologo.identificacion)== null)
+                if (_context.psicologos.Find(psicologo.username)== null)
                 {
                     _context.psicologos.Add(psicologo);
                     _context.SaveChanges();
@@ -34,18 +34,18 @@ namespace Logica
             }
 
         }
-        public string Eliminar(string identificacion)
+        public string Eliminar(string username)
         {
             try
             {
-                var Psicologo = _context.psicologos.Find(identificacion);
+                var Psicologo = _context.psicologos.Find(username);
                 if (Psicologo != null)
                 {
                     _context.Remove(Psicologo);
                     _context.SaveChanges();
-                    return $"Se Eliminó el registro de la paciente con identificacion{identificacion}";
+                    return $"Se Eliminó el registro de la paciente con identificacion{username}";
                 }
-                return $"No fue posible eliminar el registro, porque no existe la paciente con la identificacion {identificacion}";
+                return $"No fue posible eliminar el registro, porque no existe la paciente con la identificacion {username}";
             }
             catch (Exception e)
             {
@@ -67,12 +67,12 @@ namespace Logica
             }
             
         }
-        public PsicologoBuscarResponse Buscar(string identificacion)
+        public PsicologoBuscarResponse Buscar(string username)
         {
             try
             {
         
-                var Psicologo = _context.psicologos.Find(identificacion);
+                var Psicologo = _context.psicologos.Find(username);
                 if (Psicologo == null)
                 {
                     

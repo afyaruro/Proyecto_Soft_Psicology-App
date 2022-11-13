@@ -5,32 +5,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Opciones de Registro
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" [routerLink]="['/menuEmpleado/RegistrarAgenda']">Realizar Agenda</a></li>
-            <li><a class="dropdown-item" [routerLink]="['/menuEmpleado/Realizarevaluacion']">Registrar Diagnostico</a></li>
-            
-          </ul>
-        </li>  
-          
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Opciones de Consulta
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" [routerLink]="['/menuEmpleado/ConsultarAgenda']">Consultar Agenda</a></li>
-            <li><a class="dropdown-item" href="#">Consultar Diagnosticos</a></li>
-            <li><a class="dropdown-item" href="#">Consultar Historia Clinica</a></li>
-            
-          </ul>
-        </li>  
+        
+
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/menuEmpleado/RegistrarAgenda']">Registrar Agenda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/menuEmpleado/ConsultarAgenda']">Consultar Agenda</a>
+          </li>
+
         <li class="nav-item">
-          <a class="nav-link" [routerLink]='["/login"]'>Salir</a>
+          <a class="nav-link" (click)="Salir()">Salir</a>
         </li>
 
       </ul>
@@ -45,7 +30,6 @@
   </div>
 </nav>
 <div class="Contenedor-body">
-  <hr>
 
   <body>
     <router-outlet></router-outlet>

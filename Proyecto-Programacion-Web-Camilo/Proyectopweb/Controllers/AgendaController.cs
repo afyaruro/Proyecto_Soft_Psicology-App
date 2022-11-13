@@ -80,6 +80,18 @@ namespace Proyectopweb.Controllers
             return respuesta;
             
         }
+
+       [HttpGet("agendapsicologo")]
+        public ActionResult<AgendaViewModel> GetsP(string username)
+        {
+            var respuesta = _agendaService.BuscarPorPsicologo(username);
+            if (respuesta.IsError == true)
+            {
+                return BadRequest(respuesta.Mensaje);
+            }
+            return Ok(respuesta.Agendas.Select(p => new AgendaViewModel(p)));
+        }
+
         [HttpGet("byId")]
         public ActionResult<AgendaViewModel> Gets(string id)
         {

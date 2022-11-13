@@ -44,9 +44,8 @@ export class AgendaService {
   }
   getNombre(hora: string): Observable<string[]> {
     
-    let horaN=hora.split(":");
   
-    return  this.http.get<string[]>(this.baseUrl+'api/Agenda/nombrePsicologo?hora='+horaN[0]+"%3A"+horaN[1]+"%3A"+horaN[2])
+    return  this.http.get<string[]>(this.baseUrl+'api/Agenda/nombrePsicologo?hora='+hora)
       .pipe(
         tap(_ => this.handleErrorService),
         catchError(this.handleErrorService.handleError<string[]>(null))
@@ -60,7 +59,16 @@ export class AgendaService {
         catchError(this.handleErrorService.handleError<string[]>(null))
       );
   } 
-  
+   
+GetxPsicologo(username:string){
+
+    return  this.http.get<Agenda[]>(this.baseUrl+'api/Agenda/agendapsicologo?username='+username)
+    .pipe(
+      tap(_ => this.handleErrorService.log('Agenda Consultada')),
+      catchError(this.handleErrorService.handleError<Agenda[]>('Consultar Agendas', null))
+    );
+} 
+
   post(agenda: Agenda): Observable<Agenda> {
     return this.http.post<Agenda>(this.baseUrl + 'api/Agenda', agenda)
       .pipe(

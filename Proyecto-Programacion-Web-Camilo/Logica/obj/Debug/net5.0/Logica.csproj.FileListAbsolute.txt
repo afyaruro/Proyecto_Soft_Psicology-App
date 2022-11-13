@@ -48,3 +48,20 @@ C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacio
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\ref\Logica.dll
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.pdb
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\refint\Logica.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\bin\Debug\net5.0\Logica.deps.json
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\bin\Debug\net5.0\Logica.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\bin\Debug\net5.0\Logica.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\bin\Debug\net5.0\Datos.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\bin\Debug\net5.0\Entidad.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\bin\Debug\net5.0\Datos.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\bin\Debug\net5.0\Entidad.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\refint\Logica.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\Logica.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Logica\obj\Debug\net5.0\ref\Logica.dll

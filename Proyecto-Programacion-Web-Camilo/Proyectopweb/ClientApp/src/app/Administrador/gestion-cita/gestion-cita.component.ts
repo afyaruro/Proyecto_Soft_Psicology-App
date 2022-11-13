@@ -1,9 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { iif } from 'rxjs';
 import { AgendaService } from 'src/app/services/Agenda.service';
 import { CitaService } from 'src/app/services/apartar-citas.service';
+import { EmpleadoService } from 'src/app/services/empleado.service';
 import { PersonaService } from 'src/app/services/persona.service';
 import { Agenda } from '../models/Agenda';
 import { Cita } from '../models/Cita';
+import { Empleado } from '../models/empleado';
 import { Persona } from '../models/persona';
 
 @Component({
@@ -15,51 +18,37 @@ export class GestionCitaComponent implements OnInit {
   cita: Cita;
   agendaHora: string[];
   agendaNombrePsicologo: string[];
-  agendaNombrePaciente: string[];
-  agendaTerapia: string[];
-  age: Agenda[];
-  agenda: Agenda;
-  persona: Persona;
+  psicologos: Empleado[];
   fecha: Date;
   hora:string;
-  constructor(private apartarCitasService: CitaService, private agendaService: AgendaService) { 
+  usuarios: string[];
+  user: string;
+  nombreP: string;
+  
+  constructor(private pacienteService: PersonaService, private apartarCitasService: CitaService, private agendaService: AgendaService, ) { 
     this.cita = new Cita;
   }
 
     ngOnInit() {
-      
-     // this.verificando();
-     
 
-    }
-   /* getList(){
-      this.agendaService.getList().subscribe(result=>{
-        console.log(result);
-          this.agendas = result;  
-          
-      });
-    }*/
-    verificarTerapia(){
+    this.usuarios=this.pacienteService.getLocal();
+    this.user=this.usuarios[0];
+    this.cita.idPaciente = this.user;
+    console.log(this.cita.idPaciente);
 
-     console.log("ok proooo");
-     var nombre= this.cita.nombre.trim();
-      this.agendaService.getTerapia(nombre).subscribe(result=>{console.log("lo hice");
-        this.agendaTerapia = result;  
-       
-     });
+    
     }
-    nombrePaciente(){
-      this.apartarCitasService.getNombre(this.cita.idPaciente).subscribe(result=>{
 
-        this.agendaNombrePaciente = result;  
-       
-    });
-    }
+
+
+    
     verificandoNombre(){
       console.log("ok");
         this.agendaService.getNombre(this.cita.horaCita).subscribe(result=>{
 
             this.agendaNombrePsicologo = result;  
+            console.log(result);
+            console.log("hola "+this.nombreP);
            
         });
        
@@ -70,7 +59,8 @@ export class GestionCitaComponent implements OnInit {
       this.agendaService.getHora(this.cita.fechaDeseada).subscribe(result=>{
         console.log(result);
           this.agendaHora = result;  
-          
+         
+            
       });
      }
    }
@@ -78,6 +68,7 @@ export class GestionCitaComponent implements OnInit {
     
     add(){
      this.cita.estado="Activa";
+     this.cita.nombre = this.nombreP;
       this.apartarCitasService.post(this.cita).subscribe(p=>{
         console.log(p);
         if(p!=null){

@@ -44,13 +44,27 @@ namespace Proyectopweb.Controllers
             }
             return Ok(respuesta.Citas.Select(p => new CitaViewModel(p)));
         }
-        [HttpGet("nombrePaciente")]
+
+        [HttpGet("nombrePaciente")] 
         public string GetNombrePaciente(string id)
         {
             var respuesta = _citaService.nombrePaciente(id);
           
             return respuesta;
         }
+
+        [HttpGet("citaspaciente")]
+        public ActionResult<CitaViewModel> GetsPaciente(string username)
+        {
+            var respuesta = _citaService.BuscarCitasporIdPaciente(username);
+            if (respuesta.IsError == true)
+            {
+                return BadRequest(respuesta.Mensaje);
+            }
+            return Ok(respuesta.Citas.Select(p => new CitaViewModel(p)));
+        }
+        
+
         [HttpGet("byId")]
         public ActionResult<CitaViewModel> Gets(string id)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "47JKJTtlvpFgbhGTipZ+QLas5A2GW15Ef7i/4oR8zNZmDsSFIsXPtrrkLJ5wHhvAra1Y/Y5+EzY5sOmcSadzYA==",
+  "dgSpecHash": "yXiUO6/hNRtgMEfPARPv3qkU0aoc5W26LcAYEesKfyLmtWe4hzvkFxUzvxAGqvdZ7HGHOZq7qpGIrm24xbfWHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Ing Software II\\Proyecto-Programacion-Web-Camilo\\Proyecto-Programacion-Web-Camilo\\Entidad\\Entidad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.4.21253.7\\system.componentmodel.annotations.6.0.0-preview.4.21253.7.nupkg.sha512"
   ],

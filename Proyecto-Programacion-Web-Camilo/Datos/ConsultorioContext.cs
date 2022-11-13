@@ -15,7 +15,6 @@ namespace Datos
         public DbSet<Tratamiento> tratamientos { get; set; }
         public DbSet<Agenda> agendas { get; set; }
         public DbSet<Enfermedad> enfermedades { get; set; }
-        public DbSet<User> Users { get; set; }
 
     }
 }

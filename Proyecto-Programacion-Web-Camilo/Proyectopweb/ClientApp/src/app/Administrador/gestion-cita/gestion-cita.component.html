@@ -1,52 +1,21 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 offset-md-3">
+<div class="contenedor">
+    
+    <form class="contenedor_formulario">
+        <h2 class="title">Agendar Cita</h2>
+
+        <label for="fecha" class="inputDate">Fecha Requerida</label>
+        <input type="date" name="fecha" [(ngModel)]="cita.fechaDeseada" class="input" />
+    
+            <label for="fecha" class="inputDate">Hora Deseada</label>
+            <select type="text" name="horaCita" [(ngModel)]="cita.horaCita" class="input" (click)="verificando()">
+                <option [value]="agenda" *ngFor="let agenda of agendaHora"> 
+                    {{agenda}}
+                </option>
+            </select>
+
             
-            <section class="form-empleados">
-                
-                <h2>Apartar Cita</h2>
-                
-                <div class="form-group">
-                   
-                    <input type="text" name="identificacion" placeholder="Identifiacion del Paciente" [(ngModel)]="cita.idPaciente"
-                        class="form-control" /> 
-                </div>
-               
-                <div class="form-group">
-                    <span>Fecha deseada de la cita:</span>
-                    <input type="date" name="fecha" [(ngModel)]="cita.fechaDeseada" class="form-control" (click)="verificando()"/>
-                </div>
-                
-                <div class="form-group">
-                    <span>Hora deseada de la cita:</span>
-                    <select type="text" name="horaCita" [(ngModel)]="cita.horaCita" class="form-control" (click)="verificandoNombre() ">
-                        <option [value]="agenda" *ngFor="let agenda of agendaHora"> 
-                            {{agenda}}
-                        </option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <span>Nombre Piscologo</span>
-                    <select type="text" name="nombre" [(ngModel)]="cita.nombre" class="form-control" >
-                        <option [value]="agendaNombrePsicologo" *ngFor="let agenda of agendaNombrePsicologo"> 
-                            {{agenda}}
-                        </option>
-                    </select>
-                    
-                </div>
-               
-                <div class="form-group">  
-                    <label>Seleccione el Tipo de cita</label>  
-                    <select type="text" name="tipoCita" [(ngModel)]="cita.tiposSolicitud" class="form-control"  >
-                        <option [value]="agendaTerapia" *ngFor="let terapia of agendaTerapia"> 
-                            {{terapia}}
-                        </option>
-                    </select>              
-                </div>
-                <div class="text-center">
-                    <button class="btn btn-primary mr-1" (click)="add()">Enviar</button>
-                </div>
-            </section>
-        </div>
-    </div>
+
+                    <button class="boton" (click)="add()">Agendar</button>
+    </form>
+    
 </div>

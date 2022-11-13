@@ -3,15 +3,34 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Datos.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Nueva3 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "enfermedades",
+                columns: table => new
+                {
+                    idEnfermedad = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo_3 = table.Column<string>(nullable: true),
+                    Descripcion_3 = table.Column<string>(nullable: true),
+                    Codigo_4 = table.Column<string>(nullable: true),
+                    Descripcion_4 = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_enfermedades", x => x.idEnfermedad);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "pacientes",
                 columns: table => new
                 {
-                    identificacion = table.Column<string>(nullable: false),
+                    username = table.Column<string>(nullable: false),
+                    password = table.Column<string>(nullable: true),
+                    eps = table.Column<string>(nullable: true),
+                    identificacion = table.Column<string>(nullable: true),
                     tipoDocumento = table.Column<string>(nullable: true),
                     nombre = table.Column<string>(nullable: true),
                     apellido = table.Column<string>(nullable: true),
@@ -20,19 +39,21 @@ namespace Datos.Migrations
                     edad = table.Column<int>(nullable: false),
                     telefono = table.Column<string>(nullable: true),
                     direccion = table.Column<string>(nullable: true),
-                    correo = table.Column<string>(nullable: true),
-                    Eps = table.Column<string>(nullable: true)
+                    correo = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_pacientes", x => x.identificacion);
+                    table.PrimaryKey("PK_pacientes", x => x.username);
                 });
 
             migrationBuilder.CreateTable(
                 name: "psicologos",
                 columns: table => new
                 {
-                    identificacion = table.Column<string>(nullable: false),
+                    username = table.Column<string>(nullable: false),
+                    password = table.Column<string>(nullable: true),
+                    eps = table.Column<string>(nullable: true),
+                    identificacion = table.Column<string>(nullable: true),
                     tipoDocumento = table.Column<string>(nullable: true),
                     nombre = table.Column<string>(nullable: true),
                     apellido = table.Column<string>(nullable: true),
@@ -49,7 +70,7 @@ namespace Datos.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_psicologos", x => x.identificacion);
+                    table.PrimaryKey("PK_psicologos", x => x.username);
                 });
 
             migrationBuilder.CreateTable(
@@ -59,20 +80,22 @@ namespace Datos.Migrations
                     idCita = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     idPaciente = table.Column<string>(nullable: true),
-                    pacienteidentificacion = table.Column<string>(nullable: true),
+                    pacienteusername = table.Column<string>(nullable: true),
                     tiposSolicitud = table.Column<string>(nullable: true),
                     fechaDeseada = table.Column<DateTime>(nullable: false),
                     nombre = table.Column<string>(nullable: true),
-                    horaCita = table.Column<string>(nullable: true)
+                    horaCita = table.Column<string>(nullable: true),
+                    nombrePaciente = table.Column<string>(nullable: true),
+                    estado = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_citas", x => x.idCita);
                     table.ForeignKey(
-                        name: "FK_citas_pacientes_pacienteidentificacion",
-                        column: x => x.pacienteidentificacion,
+                        name: "FK_citas_pacientes_pacienteusername",
+                        column: x => x.pacienteusername,
                         principalTable: "pacientes",
-                        principalColumn: "identificacion",
+                        principalColumn: "username",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -83,26 +106,36 @@ namespace Datos.Migrations
                     IdEvaluacion = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     identificacionPaciente = table.Column<string>(nullable: true),
-                    pacienteidentificacion = table.Column<string>(nullable: true),
+                    pacienteusername = table.Column<string>(nullable: true),
                     identificacionPsicologo = table.Column<string>(nullable: true),
-                    Psicologoidentificacion = table.Column<string>(nullable: true),
+                    Psicologousername = table.Column<string>(nullable: true),
                     fecha = table.Column<DateTime>(nullable: false),
-                    diagnostico = table.Column<string>(nullable: true)
+                    diagnostico = table.Column<string>(nullable: true),
+                    nombrePaciente = table.Column<string>(nullable: true),
+                    ocupacion = table.Column<string>(nullable: true),
+                    lugar = table.Column<string>(nullable: true),
+                    nombrePsicologo = table.Column<string>(nullable: true),
+                    consulta = table.Column<string>(nullable: true),
+                    observacion = table.Column<string>(nullable: true),
+                    prueba = table.Column<string>(nullable: true),
+                    analisis = table.Column<string>(nullable: true),
+                    pronostico = table.Column<string>(nullable: true),
+                    recomendacion = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_evaluaciones", x => x.IdEvaluacion);
                     table.ForeignKey(
-                        name: "FK_evaluaciones_psicologos_Psicologoidentificacion",
-                        column: x => x.Psicologoidentificacion,
+                        name: "FK_evaluaciones_psicologos_Psicologousername",
+                        column: x => x.Psicologousername,
                         principalTable: "psicologos",
-                        principalColumn: "identificacion",
+                        principalColumn: "username",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_evaluaciones_pacientes_pacienteidentificacion",
-                        column: x => x.pacienteidentificacion,
+                        name: "FK_evaluaciones_pacientes_pacienteusername",
+                        column: x => x.pacienteusername,
                         principalTable: "pacientes",
-                        principalColumn: "identificacion",
+                        principalColumn: "username",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -113,10 +146,14 @@ namespace Datos.Migrations
                     IdTratamiento = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     identificacionPaciente = table.Column<string>(nullable: true),
-                    pacienteidentificacion = table.Column<string>(nullable: true),
+                    pacienteusername = table.Column<string>(nullable: true),
                     identificacionPsicologo = table.Column<string>(nullable: true),
-                    Psicologoidentificacion = table.Column<string>(nullable: true),
+                    Psicologousername = table.Column<string>(nullable: true),
                     fecha = table.Column<DateTime>(nullable: false),
+                    codigo_3 = table.Column<string>(nullable: true),
+                    codigo_4 = table.Column<string>(nullable: true),
+                    descripcion_3 = table.Column<string>(nullable: true),
+                    descripcion_4 = table.Column<string>(nullable: true),
                     medicacion = table.Column<string>(nullable: true),
                     tratamientoPaso = table.Column<string>(nullable: true)
                 },
@@ -124,16 +161,16 @@ namespace Datos.Migrations
                 {
                     table.PrimaryKey("PK_tratamientos", x => x.IdTratamiento);
                     table.ForeignKey(
-                        name: "FK_tratamientos_psicologos_Psicologoidentificacion",
-                        column: x => x.Psicologoidentificacion,
+                        name: "FK_tratamientos_psicologos_Psicologousername",
+                        column: x => x.Psicologousername,
                         principalTable: "psicologos",
-                        principalColumn: "identificacion",
+                        principalColumn: "username",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_tratamientos_pacientes_pacienteidentificacion",
-                        column: x => x.pacienteidentificacion,
+                        name: "FK_tratamientos_pacientes_pacienteusername",
+                        column: x => x.pacienteusername,
                         principalTable: "pacientes",
-                        principalColumn: "identificacion",
+                        principalColumn: "username",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -144,12 +181,9 @@ namespace Datos.Migrations
                     idAgenda = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     idPsicologo = table.Column<string>(nullable: true),
-                    psicologoidentificacion = table.Column<string>(nullable: true),
+                    psicologousername = table.Column<string>(nullable: true),
                     idCita = table.Column<int>(nullable: false),
                     citaidCita = table.Column<int>(nullable: true),
-                    nombrePsicologo = table.Column<string>(nullable: true),
-                    areaEspecializada = table.Column<string>(nullable: true),
-                    areaPsicologo = table.Column<string>(nullable: true),
                     fechaDeseada = table.Column<DateTime>(nullable: false),
                     horaCita = table.Column<string>(nullable: true)
                 },
@@ -163,10 +197,10 @@ namespace Datos.Migrations
                         principalColumn: "idCita",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_agendas_psicologos_psicologoidentificacion",
-                        column: x => x.psicologoidentificacion,
+                        name: "FK_agendas_psicologos_psicologousername",
+                        column: x => x.psicologousername,
                         principalTable: "psicologos",
-                        principalColumn: "identificacion",
+                        principalColumn: "username",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -176,40 +210,43 @@ namespace Datos.Migrations
                 column: "citaidCita");
 
             migrationBuilder.CreateIndex(
-                name: "IX_agendas_psicologoidentificacion",
+                name: "IX_agendas_psicologousername",
                 table: "agendas",
-                column: "psicologoidentificacion");
+                column: "psicologousername");
 
             migrationBuilder.CreateIndex(
-                name: "IX_citas_pacienteidentificacion",
+                name: "IX_citas_pacienteusername",
                 table: "citas",
-                column: "pacienteidentificacion");
+                column: "pacienteusername");
 
             migrationBuilder.CreateIndex(
-                name: "IX_evaluaciones_Psicologoidentificacion",
+                name: "IX_evaluaciones_Psicologousername",
                 table: "evaluaciones",
-                column: "Psicologoidentificacion");
+                column: "Psicologousername");
 
             migrationBuilder.CreateIndex(
-                name: "IX_evaluaciones_pacienteidentificacion",
+                name: "IX_evaluaciones_pacienteusername",
                 table: "evaluaciones",
-                column: "pacienteidentificacion");
+                column: "pacienteusername");
 
             migrationBuilder.CreateIndex(
-                name: "IX_tratamientos_Psicologoidentificacion",
+                name: "IX_tratamientos_Psicologousername",
                 table: "tratamientos",
-                column: "Psicologoidentificacion");
+                column: "Psicologousername");
 
             migrationBuilder.CreateIndex(
-                name: "IX_tratamientos_pacienteidentificacion",
+                name: "IX_tratamientos_pacienteusername",
                 table: "tratamientos",
-                column: "pacienteidentificacion");
+                column: "pacienteusername");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "agendas");
+
+            migrationBuilder.DropTable(
+                name: "enfermedades");
 
             migrationBuilder.DropTable(
                 name: "evaluaciones");

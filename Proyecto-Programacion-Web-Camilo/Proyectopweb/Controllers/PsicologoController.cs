@@ -44,10 +44,10 @@ namespace Proyectopweb.Controllers
             return Ok(respuesta.Psicologo.Select(p => new PsicologoViewModel(p)));
       }
 
-        [HttpGet("byId")]
-        public ActionResult<PsicologoViewModel> Gets(string id)
+        [HttpGet("GetId")]
+        public ActionResult<PsicologoViewModel> Get(string username)
         {
-           var respuesta = _psicologoService.Buscar(id);
+           var respuesta = _psicologoService.Buscar(username);
             if (respuesta.IsError == true)
             {
                 return BadRequest(respuesta.Mensaje);
@@ -70,7 +70,9 @@ namespace Proyectopweb.Controllers
            psicologo.fechaFinalizacion=PsicologoInputModel.fechaFinalizacion;
            psicologo.areaEspecializada=PsicologoInputModel.areaEspecializada;
            psicologo.mesesExperiencia=PsicologoInputModel.mesesExperiencia;
-            psicologo.calcularEdad(psicologo.fechaNacimiento);
+           psicologo.username=PsicologoInputModel.username;
+           psicologo.password = PsicologoInputModel.pass;
+           psicologo.eps = PsicologoInputModel.eps;
             return psicologo;
         } 
     }

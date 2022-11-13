@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { AlertModalComponent } from '../@base/alert-modal/alert-modal.component';
+import { EmpleadoService } from '../services/empleado.service';
+import { PersonaService } from '../services/persona.service';
 
 @Component({
   selector: 'app-nav-menu-cliente',
@@ -7,9 +12,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavMenuClienteComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private personaService: PersonaService, private modalService: NgbModal) { }
 
   ngOnInit() {
+  }
+
+  Salir(){
+    const messageBox = this.modalService.open(AlertModalComponent)
+    messageBox.componentInstance.title = "Cerrar Sesion"
+    messageBox.componentInstance.message = "Usted ha cerrado sesión"
+    this.personaService.deleteLocal();
+    this.router.navigate(["/login"]);
   }
 
 }

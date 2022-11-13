@@ -6,7 +6,6 @@ namespace Entidad
 {
     public class Paciente: Persona
     {
-        public string Eps {get; set;}
       
         public List<Cita> citas { get; set; }
     }

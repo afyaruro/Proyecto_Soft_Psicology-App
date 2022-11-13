@@ -92,6 +92,34 @@ namespace Logica
             }
             
         }
+
+        public BuscarCitaxIdPacienteResponse BuscarCitasporIdPaciente(string username){
+                List<Cita>  citas = this.Consultar().Citas;
+                List<Cita> citasUser = new List<Cita>();
+            try{
+
+                if (citas == null)
+                {
+                    return new BuscarCitaxIdPacienteResponse("No hay citas Registradas");
+
+                } else{
+                   foreach (var item in citas)
+                 {
+                    if(item.idPaciente == username){
+                        citasUser.Add(item);
+                    }
+                 }
+
+                 return new BuscarCitaxIdPacienteResponse(citasUser);
+                 
+                }
+            }catch (CitaNoEncontradaException e)
+            {
+                return new BuscarCitaxIdPacienteResponse("Error al Buscar:" + e.Message);
+            }
+        }
+
+
         public string nombrePaciente(string id){
             
             List<Cita> citas=_context.citas.ToList();
@@ -111,5 +139,23 @@ namespace Logica
         }
 
        
+    }
+
+     public class BuscarCitaxIdPacienteResponse
+    {
+        public List<Cita> Citas { get; set; }
+        public string Mensaje { get; set; }
+        public bool IsError { get; set; }
+
+        public BuscarCitaxIdPacienteResponse(List<Cita> citas)
+        {
+            Citas = citas;
+            IsError = false;
+        }
+        public BuscarCitaxIdPacienteResponse(string mensaje)
+        {
+            Mensaje = mensaje;
+            IsError = true;
+        }
     }
 }

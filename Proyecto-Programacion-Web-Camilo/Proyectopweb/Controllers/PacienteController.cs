@@ -50,10 +50,10 @@ namespace Proyectopweb.Controllers
             //return Ok(new List<PacienteViewModel>());
         }
 
-        [HttpGet("byId")]
-        public ActionResult<PacienteViewModel> Gets(string id)
+        [HttpGet("GetId")]
+        public ActionResult<PacienteViewModel> Gets(string username)
         {
-           var respuesta = _pacienteService.Buscar(id);
+           var respuesta = _pacienteService.Buscar(username);
             if (respuesta.IsError == true)
             {
                 return BadRequest(respuesta.Mensaje);
@@ -72,8 +72,9 @@ namespace Proyectopweb.Controllers
             paciente.telefono = pacienteInputModel.telefono;
             paciente.direccion = pacienteInputModel.direccion;
             paciente.correo = pacienteInputModel.correo;
-            paciente.Eps = pacienteInputModel.Eps;
-            paciente.calcularEdad(paciente.fechaNacimiento);
+            paciente.eps = pacienteInputModel.eps;
+            paciente.password = pacienteInputModel.pass;
+            paciente.username = pacienteInputModel.username;
             return paciente;
         } 
     }

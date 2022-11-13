@@ -11,10 +11,10 @@
                 
                 <select type="text" name="tipoDocumento" [(ngModel)]="empleado.tipoDocumento" class="input">
                     <option value="Selecciona el Tipo de Documento" selected disabled>Selecciona el Tipo de Documento</option>
-                    <option value="Cedula de ciudadania">Cedula de ciudadania</option>
-                    <option value="Registro civil">Registro civil</option>
-                    <option value="Tarjeta de identidad">Tarjeta de identidad</option>
-                    <option value="Documento extrangero">Documento extrangero</option>
+                    <option >Cedula de ciudadania</option>
+                    <option >Registro civil</option>
+                    <option >Tarjeta de identidad</option>
+                    <option >Documento extrangero</option>
                 </select>
 
                 <input type="text" name="apellido" placeholder="Apellido" [(ngModel)]="empleado.apellido" class="input">
@@ -54,19 +54,19 @@
             <div class="inputs"> 
                 <input type="text" name="identificacion" placeholder="Numero de Identifiacion" [(ngModel)]="empleado.identificacion"
                 class="input" />
-                <input class="input" type="text" placeholder="Nombre de usuario">
-                <select type="text" name="eps" class="input">
-                    <option value="eps" selected disabled>Seleccione su Eps</option>
-                    <option value="Salud Colmena E.P.S. S.A.">Salud Colmena E.P.S. S.A.</option>  
-                    <option value="Salud Total S.A. E.P.S.">Salud Total S.A. E.P.S.</option> 
-                    <option value="Cafesalud E.P.S. S.A.">Cafesalud E.P.S. S.A.</option>   
-                    <option value="E.P.S.  Sanitas S.A.">E.P.S.  Sanitas S.A.</option>   
-                    <option value="E.P.S. Unimec - Liquidación">E.P.S. Unimec - Liquidación</option>   
-                    <option value="Compensar  E.P.S.">Compensar  E.P.S.</option>   
-                    <option value="EPS Prog. Comfenalco Antioquia">EPS Prog. Comfenalco Antioquia</option>   
-                    <option value="SuSalud EPS">SuSalud EPS</option>   
-                    <option value="Colseguros E.P.S.">Colseguros E.P.S.</option>   
-                    <option value="Comfenalco Valle E.P.S.">Comfenalco Valle E.P.S.</option>   
+                <input class="input" type="text" placeholder="Nombre de usuario" name="username" [(ngModel)]="empleado.username">
+                <select type="text" name="eps" class="input" [(ngModel)]="empleado.eps">
+                    <option value="Seleccione su Eps" selected disabled>Seleccione su Eps</option>
+                    <option>Salud Colmena E.P.S. S.A.</option>  
+                    <option>Salud Total S.A. E.P.S.</option> 
+                    <option>Cafesalud E.P.S. S.A.</option>   
+                    <option>E.P.S.  Sanitas S.A.</option>   
+                    <option>E.P.S. Unimec - Liquidación</option>   
+                    <option>Compensar  E.P.S.</option>   
+                    <option>EPS Prog. Comfenalco Antioquia</option>   
+                    <option>SuSalud EPS</option>   
+                    <option>Colseguros E.P.S.</option>   
+                    <option>Comfenalco Valle E.P.S.</option>   
                     <option>E.P.S.  Saludcoop</option>   
                     <option>Humana Vivir  S.A.  E.P.S.</option>   
                     <option>EPS Servicios Medicos Colpatria</option>   
@@ -78,7 +78,7 @@
                     <option>SALUDCOLOMBIA EPS S.A.</option>   
                     <option>RED SALUD ATENCION HUMANA EPS S.A.</option>   
                     <option>CajaCopi EPS</option> 
-                    <option value="">No Tiene</option>  
+                    <option>No Tiene</option>  
                   </select>
 
                   <input type="text" name="direccion" placeholder="Direccion" [(ngModel)]="empleado.direccion"
@@ -92,7 +92,7 @@
             <div class="inputs">
                 
                 <input type="text" name="nombre" placeholder="Nombre" [(ngModel)]="empleado.nombre" class="input" />
-                <input class="input" type="password" placeholder="Contraseña">
+                <input class="input" type="password" placeholder="Contraseña" name="pass" [(ngModel)]="empleado.pass">
 
                 <input type="text" name="telefono" placeholder="Telefono" [(ngModel)]="empleado.telefono"
                 class="input" />
@@ -107,7 +107,7 @@
 
         </form>
 
-        <a class="boton" (click)="add()">Registrar Psicologo</a>
+        <button class="boton" (click)="add()">Registrar Psicologo</button>
 
     </div>
 

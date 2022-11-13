@@ -25,13 +25,24 @@ export class CitaService {
         catchError(this.handleErrorService.handleError<Cita[]>('Consulta cita', null))
       );
   }
+
+  GetxPaciente(username:string){
+
+    return  this.http.get<Cita[]>(this.baseUrl+'api/Cita/citaspaciente?username='+username)
+    .pipe(
+      tap(_ => this.handleErrorService.log('Cita Consultada')),
+      catchError(this.handleErrorService.handleError<Cita[]>('Consultar Citas', null))
+    );
+}
+
+
   getNombre(nombre: string): Observable<string[]> {
     var nombreP=nombre.toString();
     return this.http.get<string[]>(this.baseUrl + 'api/Cita/nombrePaciente?id='+nombreP)
       .pipe(
         tap(_ => this.handleErrorService),
         catchError(this.handleErrorService.handleError<string[]>('Registrar cita', null))
-      );
+      );  
   }
   post(apartarCitas: Cita): Observable<Cita> {
     return this.http.post<Cita>(this.baseUrl + 'api/Cita', apartarCitas)

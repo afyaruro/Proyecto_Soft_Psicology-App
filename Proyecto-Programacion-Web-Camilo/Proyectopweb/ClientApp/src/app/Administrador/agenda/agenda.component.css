@@ -1,0 +1,56 @@
+.contenedor{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0.01%;
+    background: url(../../../assets/undraw_futuristic_interface_re_0cm6.svg);
+    background-repeat:no-repeat;
+    background-size: 30%;
+    background-position: 90% center;
+
+}
+
+.title{
+    color:#505365;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-top: 20px;
+}
+.inputDate{
+    color:#505365;
+}
+
+.input{
+    width: 98%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    border: 0px solid;
+    margin: 10px auto;
+    color: #505365;
+}
+
+.contenedor_formulario{
+    width: 40%;
+    min-height: 400px;
+    background-color: rgba(8, 62, 99, 0.151);
+    margin: 100px 200px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.boton{
+    width: 250px;
+    min-height: 40px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #505365;
+    color: white;
+    border: 0px;
+}

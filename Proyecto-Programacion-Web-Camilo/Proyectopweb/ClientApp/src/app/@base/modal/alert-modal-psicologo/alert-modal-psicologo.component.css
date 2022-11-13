@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.negrita{
+    font-size: large;
+    color: black;
+    font-weight: 700;
+    display: block;
+}
+
+.al_lado{
+    font-size: large;
+    margin-left: 5px;
+}
+
+.container_text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}

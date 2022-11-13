@@ -10,12 +10,12 @@
               <option value="3">Psicologo</option>
               <option value="1">Paciente</option>
           </select>
-          <input class="input" type="text" placeholder="Nombre de Usuario">
-          <input class="input" type="password" placeholder="Contraseña">
+          <input class="input" type="text" placeholder="Nombre de Usuario" name="username" [(ngModel)]="username">
+          <input class="input" type="password" placeholder="Contraseña" name="contra" [(ngModel)]="contra">
 
           <p class="text_link">Crear cuenta de paciente <a class="link" [routerLink]='["/personaRegistro"]'>aqui</a></p>   
 
-          <a class="boton" (click)="Ingresar()">Ingresar</a>
+          <button class="boton" (click)="Ingresar()">Ingresar</button>
       </form>
 
   </div>

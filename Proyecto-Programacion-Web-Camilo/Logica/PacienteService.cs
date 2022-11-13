@@ -20,7 +20,7 @@ namespace Logica
             try
             {
 
-                if (_context.pacientes.Find(paciente.identificacion)== null)
+                if (_context.pacientes.Find(paciente.username)== null)
                 {
                     _context.pacientes.Add(paciente);
                     _context.SaveChanges();

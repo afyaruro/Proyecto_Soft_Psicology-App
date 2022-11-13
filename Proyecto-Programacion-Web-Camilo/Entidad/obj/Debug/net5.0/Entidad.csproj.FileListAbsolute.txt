@@ -46,3 +46,15 @@ C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacio
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\ref\Entidad.dll
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.pdb
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\refint\Entidad.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\bin\Debug\net5.0\Entidad.deps.json
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\bin\Debug\net5.0\Entidad.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\bin\Debug\net5.0\Entidad.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\refint\Entidad.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\Entidad.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Entidad\obj\Debug\net5.0\ref\Entidad.dll

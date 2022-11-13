@@ -78,6 +78,35 @@ namespace Logica
             }
 
         }
+
+        public AgendaBuscarPsicologoResponse BuscarPorPsicologo(string username){
+            try
+            {
+
+                List<Agenda>  agendas = this.Consultar().Agendas;
+                List<Agenda> agendasUser = new List<Agenda>();
+                if (agendas == null)
+                {
+                    return new AgendaBuscarPsicologoResponse("No hay agendas Registradas");
+
+                } else{
+                   foreach (var item in agendas)
+                 {
+                    if(item.idPsicologo == username){
+                        agendasUser.Add(item);
+                    }
+                 }
+
+                 return new AgendaBuscarPsicologoResponse(agendasUser);
+                 
+                }
+                //return new AgendaBuscarResponse(agenda);
+            }
+            catch (AgendaNoEncontradaException e)
+            {
+                return new AgendaBuscarPsicologoResponse("Error al Buscar:" + e.Message);
+            }
+        }
         public AgendaBuscarResponse Buscar(string idAgenda)
         {
             try
@@ -144,48 +173,34 @@ namespace Logica
         public List<string> buscarPsicologo(string hora)
         {
             List<Agenda> agenda = _context.agendas.ToList();
-            List<Psicologo> psicologo = _context.psicologos.ToList();
+            List<Psicologo> psicologos = _context.psicologos.ToList();
+            
+
             List<string> nombrePsicologo = new List<string>();
             foreach (var item in agenda)
             {
                 if (item.horaCita == hora)
                 {
-                    foreach (var e in psicologo)
-                    {
-                        if (item.idPsicologo == e.identificacion)
-                        {
-                            var almacenado = e.nombre + " " + e.apellido;
-                            nombrePsicologo.Add(almacenado);
+                     foreach (var p in psicologos){
+                        if(p.username == item.idPsicologo){
+                            var nombre = p.nombre;
+                            var apellido = p.apellido;
+
+                            nombrePsicologo.Add(nombre+" "+apellido);
                         }
-                    }
+
+                     }
+
                 }
+                    
             }
-            return nombrePsicologo;
-          
+                 return nombrePsicologo;
         }
+           
+          
         
-       /* public List<string> leerExcel()
-        {
-            List<string> listaExcel = new List<string>();
-            //Ruta del fichero Excel
-            string filePath = "";
-
-            using (var stream = File.Open(filePath, FileMode.Open, FileAccess.Read))
-            {
-                using (var reader = OpenXmlReader.CreateReader(stream))
-                {
-                    do
-                    {
-                        while (reader.Read())
-                        {
-                            reader.GetDouble(0);
-                        }
-                    } while (reader.NextResult());
-
-                }
-            }
-            return listaExcel;
-        }*/
+        
+       
         public List<string> buscarTerapia(string nombrePsicologo)
         {
             List<Agenda> agenda = _context.agendas.ToList();
@@ -201,6 +216,24 @@ namespace Logica
                 }
             }
             return TerapiaPsicologo;
+        }
+    }
+
+     public class AgendaBuscarPsicologoResponse
+    {
+        public List<Agenda> Agendas { get; set; }
+        public string Mensaje { get; set; }
+        public bool IsError { get; set; }
+
+        public AgendaBuscarPsicologoResponse(List<Agenda> agendas)
+        {
+            Agendas = agendas;
+            IsError = false;
+        }
+        public AgendaBuscarPsicologoResponse(string mensaje)
+        {
+            Mensaje = mensaje;
+            IsError = true;
         }
     }
 }

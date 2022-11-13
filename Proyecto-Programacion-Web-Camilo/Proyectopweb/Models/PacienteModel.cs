@@ -6,6 +6,7 @@ namespace Proyectopweb.Models
 {
     public class PacienteInputModel
     {
+
           [Required(ErrorMessage = "La identificacion es requerida")]
         public string tipoDocumento { get; set; }
         [Required(ErrorMessage = "El identificacion es requerida")]
@@ -17,7 +18,7 @@ namespace Proyectopweb.Models
        // [SexoValidacion( ErrorMessage="El Sexo de ser F o M")]
         public string sexo {get; set;}
         [Required(ErrorMessage = "El fechaNacimiento es requerida")]
-        public DateTime fechaNacimiento { get; set; }
+        public string fechaNacimiento { get; set; }
         [Required(ErrorMessage = "El telefono es requerida")]
         public string telefono {get; set;}
         [Required(ErrorMessage = "El direccion es requerida")]
@@ -25,7 +26,9 @@ namespace Proyectopweb.Models
         [Required(ErrorMessage = "El correo es requerida")]
         public string correo {get; set;}
         [Required(ErrorMessage = "El Eps es requerida")]
-        public string Eps {get; set;}
+        public string eps {get; set;}
+        public string username {get; set;}
+        public string pass {get; set;}
     }
      public class SexoValidacion : ValidationAttribute
     {
@@ -55,11 +58,12 @@ namespace Proyectopweb.Models
            apellido = paciente.apellido;
            sexo = paciente.sexo;
            fechaNacimiento=paciente.fechaNacimiento;
-           edad = paciente.edad;
            telefono =paciente.telefono;
            direccion =paciente.direccion;
            correo =paciente.correo;
-           Eps =paciente.Eps;
+           eps =paciente.eps;
+           username = paciente.username;
+           pass = paciente.password;
         }
         public int edad {get; set;}
     }

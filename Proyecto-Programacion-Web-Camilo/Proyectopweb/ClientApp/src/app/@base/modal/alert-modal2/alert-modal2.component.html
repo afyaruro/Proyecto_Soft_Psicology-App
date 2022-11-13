@@ -1,0 +1,62 @@
+<div class="modal-header">
+        <h4 class="modal-title">{{title}}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+              <span aria-hidden="true">&times;</span>
+            </button>
+</div>
+  <div class="modal-body">
+    <div class="contenedor_modal">
+
+        <div class="container_text">
+            <p class="negrita">Nombre: </p> 
+            <p class="al_lado">  {{nombre}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Apellido: </p> 
+            <p class="al_lado">  {{apellido}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Nombre de Usuario: </p> 
+            <p class="al_lado">  {{user}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Contraseña: </p> 
+            <p class="al_lado">  {{pass}}</p> 
+        </div>
+        <div class="container_text">
+            <p class="negrita">Tipo de Documento: </p> 
+            <p class="al_lado">  {{tipoidentidad}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Numero de Documento: </p> 
+            <p class="al_lado">  {{identidad}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Sexo: </p> 
+            <p class="al_lado">  {{sexo}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Eps: </p> 
+            <p class="al_lado">  {{eps}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Fecha de Nacimiento: </p> 
+            <p class="al_lado">  {{fecha_nacimiento}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Telefono: </p> 
+            <p class="al_lado">  {{telefono}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Direccion: </p> 
+            <p class="al_lado">  {{direccion}}</p>
+        </div>
+        <div class="container_text">
+            <p class="negrita">Correo: </p> 
+            <p class="al_lado">  {{correo}}</p>
+        </div>
+    </div>
+ </div>
+<div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Ok</button>
+</div>

@@ -57,3 +57,18 @@ C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacio
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\ref\Datos.dll
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.pdb
 C:\Users\Usuario\Downloads\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\refint\Datos.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Datos.deps.json
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Datos.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Datos.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Entidad.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\bin\Debug\net5.0\Entidad.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\refint\Datos.dll
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\Datos.pdb
+C:\Users\Usuario\Desktop\Carpetas\Ing Software II\Proyecto-Programacion-Web-Camilo\Proyecto-Programacion-Web-Camilo\Datos\obj\Debug\net5.0\ref\Datos.dll

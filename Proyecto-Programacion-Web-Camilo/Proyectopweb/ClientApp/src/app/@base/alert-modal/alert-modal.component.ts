@@ -7,8 +7,8 @@ import {NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 })
 export class AlertModalComponent implements OnInit {
 constructor(public activeModal: NgbActiveModal) { }
-  @Input() title;
-  @Input() message;
-  ngOnInit(): void {
+  @Input() title;
+  @Input() message;
+  ngOnInit(): void {
   }
 }
